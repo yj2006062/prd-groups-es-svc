@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /elasticsearch
+  port: 8080
+  
+spring:
+  profiles:
+    active:
+    - local
